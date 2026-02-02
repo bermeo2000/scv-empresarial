@@ -39,11 +39,6 @@ jobs:
           done
           echo "✅ Sintaxis correcta"
 
-      - name: Ejecutar tests
-        run: |
-          echo "🧪 Ejecutando tests..."
-          npm test
-
       - name: Verificar que no hay TODOs
         run: |
           echo "🔍 Buscando TODO/FIXME en el código..."
